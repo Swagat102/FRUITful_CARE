@@ -1,0 +1,81 @@
+#header{
+    width: 100%;
+    height: 60vh;
+    background-image: url('/images/GalleryBg.jpg');
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    /* background-color: yellow; */
+}
+
+#gallery{
+    
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3% 8%;
+    justify-content: space-between;
+}
+.cards{
+ margin-bottom: 30px;
+}
+.cards-p{
+    width: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #5D5C61;
+}
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 400px;
+    height: 350px;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.card:hover{
+    filter: none;
+    max-height: 350px;
+    transform: scale(1.1);
+}
+
+.card1{
+    background-image: url('/images/tukuwebsiteimg1.png');
+}
+.card2{
+    background-image: url('/images/tukuwebsiteimg2.png');
+}
+.card3{
+    background-image: url('/images/tukuwebsiteimg3.png');
+}
+.card4{
+    background-image: url('/images/tukuwebsiteimg4.jpg');
+}
+.card5{
+    background-image: url('/images/tukuwebsiteimg5.jpg');
+}
+.card6{
+    background-image: url('/images/tukuwebsiteimage7.jpg.jpg');
+}
+
+footer{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
